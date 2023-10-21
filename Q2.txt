@@ -1,0 +1,16 @@
+objects:
+   An object is a unordered collection of related data of different data types in the form of key:value pair.
+   Properties of an object are normal javascript variable , functions that are attached to the object. It can be accessed by simple dot-notation(There are few other methods to access the properties).
+   example creation of object and properties using new keyword:
+   var myBat = new Object().
+   myBat.make = "Mrf"
+   myBat.willow = "EnglishWillow"
+   mybat.year = 2000
+
+   (for... in ) can be used to iterate all the enumerable properties
+
+   creation of Objects:
+   1)object literal
+   2)Construction
+   3)Obejct.create
+   4)new keyword

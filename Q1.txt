@@ -1,0 +1,21 @@
+HTTP:
+Http is used to establish communication between browser and the server . i.e request and response cycle.
+
+HTTP1.1:
+Http1.1 is the first version of Http and it is developed in 1997.
+
+HTTP2:
+It is the new version of HTTP , was developed in 2015. It is much faster than HTTP1.1.
+
+Differences:
+1)prioritization:
+  prioritization is the way of priortizing the elements which is to be rendered in the page.
+  prioritization in http2 improves the performance of the page which was not possible in http1.1
+2)multiplexing:
+  multiplexing is the way in which the data is delivered from the server based on the request.
+  In http1.1 the data is delivered one after the other,which will result in blockage if there is a problem in the previous data. As a result the performance of the page slows down , Whereas in http2 multiple streams of data is delivered at once by using single tcp which results in improved performance.
+3)server Push:
+  It is a performance technique which allows the server to send resources to the client before the client requests for it.
+  This feauture in HTTP2 improves the performance of the page, the same feauture is not available in http1.
+4)Header compression:
+  Header compression is available in both HTTP1.1 and HTTP2 .Is is done to speed up the performance.Http2 uses advanced compression Hpack which removes few bytes from every http packet so it improves the speed further.
